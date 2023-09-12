@@ -900,13 +900,13 @@ html {
     @media (max-width: 480px) {
 
         .logo-abacus {
-            margin-left: 1%;
+            margin-left: 3%;
             width: 6%;
         }
         
         .span-name {
             font-size: 0.9rem;
-            margin-right: 2%;
+            margin-right: 5%;
         }
         
         .span-slogan {

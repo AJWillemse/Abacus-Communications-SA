@@ -688,14 +688,19 @@ html {
 
     
     .logo-abacus {
-        margin-left: 21%;
-        width: 5%;
+        margin-left: 13%;
+        width: 6%;
     }
     
     .span-slogan {
         display: none;
     }
-    
+
+    .span-name {
+        font-size: 1.4rem;
+        margin-right: 13%;
+    }
+
     .slogan {
         padding: 0 0;
         text-align: center;
@@ -713,7 +718,7 @@ html {
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(0px);
         box-shadow: 0px 0px 0px black;
-        top: 32%;
+        top: 30%;
         width: 100%;
     }
     
@@ -721,7 +726,7 @@ html {
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(0px);
         box-shadow: 0px 0px 0px black;
-        top: 46%;
+        top: 42%;
         width: 100%;
     }
     
@@ -729,7 +734,7 @@ html {
         background-color: rgba(255, 255, 255, 0);
         backdrop-filter: blur(0px);
         box-shadow: 0px 0px 0px black;
-        top: 60%;
+        top: 54%;
         width: 100%;
     }
     
@@ -741,8 +746,15 @@ html {
         margin-right: 0;
     }
 
+    .abacus-logo {
+        margin-left: 25%;
+        margin-top: 65%;
+        width: 50%;
+    }
+
     .pb-2 {
         font-size: 3rem;
+        text-align: right;
     }
 
     .poc-description {
@@ -849,6 +861,15 @@ html {
         text-align: center;
     }
 
+    .contact-logo-abacus {
+        margin-right: 0.5%;
+        width: 6%;
+    }
+    
+    .contact-span-name {
+        font-size: 1.8rem;
+    }
+
     .contact-text {
         margin-top: 3%;
     }
@@ -938,7 +959,7 @@ html {
             backdrop-filter: blur(0px);
             box-shadow: 0px 0px 0px black;
             top: 12%;
-            width: 100%;
+            width: 98%;
         }
         
         #slogan2 {
@@ -946,7 +967,7 @@ html {
             backdrop-filter: blur(0px);
             box-shadow: 0px 0px 0px black;
             top: 22%;
-            width: 100%;
+            width: 98%;
         }
         
         #slogan3 {
@@ -954,7 +975,7 @@ html {
             backdrop-filter: blur(0px);
             box-shadow: 0px 0px 0px black;
             top: 32%;
-            width: 100%;
+            width: 98%;
         }
         
         #slogan4 {
@@ -962,7 +983,7 @@ html {
             backdrop-filter: blur(0px);
             box-shadow: 0px 0px 0px black;
             top: 42%;
-            width: 100%;
+            width: 98%;
         }
         
         .h1-slogan {

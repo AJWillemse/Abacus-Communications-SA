@@ -80,7 +80,7 @@ html {
 /* //////////////////// HERO SECTION //////////////////// HERO SECTION //////////////////// */
 
 .container-hero {
-    background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ hero.jpg);
+    background-image: url(images/background\ hero.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ html {
     padding-bottom: 5%;
     padding-top: 6%;
     text-align: left;
-    width: 100%;
+    width: 100vw;
 }
 
 .slogan {
@@ -109,8 +109,8 @@ html {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 30px black;
-    top: 22%;
-    width: 50%;
+    top: 20%;
+    width: 45%;
 }
 
 #slogan2 {
@@ -119,7 +119,7 @@ html {
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 30px black;
-    top: 40%;
+    top: 38%;
     width: 45%;
 }
 
@@ -129,8 +129,8 @@ html {
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 30px black;
-    top: 58%;
-    width: 40%;
+    top: 56%;
+    width: 45%;
 }
 
 #slogan4 {
@@ -139,8 +139,8 @@ html {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 30px black;
-    top: 76%;
-    width: 35%;
+    top: 74%;
+    width: 45%;
 }
 
 .fade-in {
@@ -574,25 +574,29 @@ html {
 
 
 /* //////////////////// LAPTOP //////////////////// LAPTOP //////////////////// */
-@media (min-width: 769px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
 
 .logo-abacus {
     margin-left: 13%;
 }
 
+.container-hero {
+    background-image: url(images/background\ hero-1440.jpg);
+}
+
 #slogan1 {
     top: 20%;
-    width: 55%;
+    width: 40%;
 }
 
 #slogan2 {
     top: 38%;
-    width: 50%;
+    width: 40%;
 }
 
 #slogan3 {
     top: 56%;
-    width: 45%;
+    width: 40%;
 }
 
 #slogan4 {
@@ -601,11 +605,11 @@ html {
 }
 
 .h1-slogan {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .h3-slogan {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .pb-2 {
@@ -676,20 +680,33 @@ html {
 
 }
 
+@media (max-width: 1200px) {
 
+    .logo-abacus {
+        margin-left: 5%;
+        width: 5%;
+    }
 
+    .container-hero {
+        background-image: url(images/background\ hero-1200.jpg);
+    }
 
+    .slogan {
+        display: none;
+    }
 
+}
 
-
-
-/* //////////////////// TABLET //////////////////// TABLET //////////////////// */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     
     .logo-abacus {
-        margin-left: 13%;
+        margin-left: 20%;
         width: 6%;
+    }
+
+    .container-hero {
+        background-image: url(images/background\ hero-1024.jpg);
     }
     
     .span-slogan {
@@ -702,48 +719,7 @@ html {
     }
 
     .slogan {
-        padding: 0 0;
-        text-align: center;
-    }
-    
-    #slogan1 {
-        background-color: rgba(255, 255, 255, 0);
-        backdrop-filter: blur(0px);
-        box-shadow: 0px 0px 0px black;
-        top: 18%;
-        width: 100%;
-    }
-    
-    #slogan2 {
-        background-color: rgba(255, 255, 255, 0);
-        backdrop-filter: blur(0px);
-        box-shadow: 0px 0px 0px black;
-        top: 30%;
-        width: 100%;
-    }
-    
-    #slogan3 {
-        background-color: rgba(255, 255, 255, 0);
-        backdrop-filter: blur(0px);
-        box-shadow: 0px 0px 0px black;
-        top: 42%;
-        width: 100%;
-    }
-    
-    #slogan4 {
-        background-color: rgba(255, 255, 255, 0);
-        backdrop-filter: blur(0px);
-        box-shadow: 0px 0px 0px black;
-        top: 54%;
-        width: 100%;
-    }
-    
-    .h1-slogan {
-        margin-right: 0;
-    }
-    
-    .h3-slogan {
-        margin-right: 0;
+        display: none;
     }
 
     .abacus-logo {
@@ -917,7 +893,268 @@ html {
 
 
 
+/* //////////////////// TABLET //////////////////// TABLET //////////////////// */
+@media (max-width: 768px) {
+
+    
+    .logo-abacus {
+        margin-left: 12%;
+        width: 6%;
+    }
+
+    .container-hero {
+        background-image: url(images/background\ hero-768.jpg);
+    }
+    
+    .span-slogan {
+        display: none;
+    }
+
+    .span-name {
+        font-size: 1.4rem;
+        margin-right: 15%;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .pb-2 {
+        font-size: 3rem;
+        text-align: right;
+    }
+
+    .poc-description {
+        margin-bottom: 10%;
+    }
+
+    .poc-description-text {
+        font-size: 1.2rem;
+    }
+    
+    .features-heading {
+        font-size: 1.8rem;
+    }
+
+    .features-text {
+        font-size: 1.2rem;
+    }
+
+    .name-hytera {
+        display: none;
+    }
+    
+    .name-motorola {
+        display: none;
+    }
+    
+    .name-mytetra {
+        display: none;
+    }
+    
+    .brands-model-mobile {
+        border-radius: 20px;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    .brands-model {
+        display: none;
+    }
+
+    .brands-model-video {
+        border-radius: 20px;
+        margin-bottom: 10%;
+        margin-top: 0;
+        width: 80%;
+    }
+
+    .rainbow-text-clients {
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    .logo-clients-1 {
+        width:  30%;
+    }
+    
+    .logo-clients-2 {
+        width:  30%;
+    }
+    
+    .logo-clients-3 {
+        width:  30%;
+    }
+    
+    .logo-clients-4 {
+        width:  30%;
+    }
+    
+    .logo-clients-5 {
+        width:  30%;
+    }
+    
+    .logo-clients-6 {
+        width: 25%;
+    }
+    
+    .logo-clients-7 {
+        width:  30%;
+    }
+    
+    .logo-clients-8 {
+        width:  30%;
+    }
+    
+    .logo-clients-9 {
+        width:  30%;
+    }
+    
+    .logo-clients-10 {
+        width:  30%;
+    }
+
+    .d-block {
+        border-radius: 20px;
+        margin-bottom: 8%;
+        width: 100%;
+    }
+
+    .shop-link {
+        margin-left: 50%;
+    }
+    
+    .container-contact {
+        text-align: center;
+    }
+
+    .contact-logo-abacus {
+        margin-right: 0.5%;
+        width: 6%;
+    }
+    
+    .contact-span-name {
+        font-size: 1.8rem;
+    }
+
+    .contact-text {
+        margin-top: 3%;
+    }
+    
+    .contact-detail {
+        font-size: 2rem;
+        margin-right: 38%;
+        text-align: right;
+    }
+      
+    #earth {
+        background-size: 1000px;
+        margin-left: 55%;
+        margin-top: 10%;
+      }
+    
+      @keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 1000px 0px;
+        }
+      }
+    
+      @-webkit-keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 1000px 0px;
+        }
+      }
+
+      .logo-footer {
+        width: 35%;
+    }
+    
+    }
+
+
+
+
+
+
+
+
 /* //////////////////// PHONE //////////////////// PHONE //////////////////// */
+
+@media (max-width: 575px) {
+
+    .logo-abacus {
+        margin-left: 10%;
+        width: 6%;
+    }
+    
+    .span-name {
+        font-size: 1.1rem;
+        margin-right: 12%;
+    }
+
+    .container-hero {
+        background-image: url(images/background\ hero-575.jpg);
+    }
+
+    .contact-logo-abacus {
+        margin-right: 0.5%;
+        width: 6%;
+    }
+    
+    .contact-span-name {
+        font-size: 1.3rem;
+    }
+
+    .contact-text {
+        font-size: 1.3rem;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
+    .contact-detail {
+        font-size: 1.8rem;
+        margin-right: 2%;
+        text-align: right;
+    }
+
+    #earth {
+        background-size: 800px;
+        margin-left: 40%;
+        margin-top: 10%;
+      }
+    
+      @keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 800px 0px;
+        }
+      }
+    
+      @-webkit-keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 800px 0px;
+        }
+      }
+
+    .logo-footer {
+        width: 50%;
+    }
+
+
+}
+
+
     @media (max-width: 480px) {
 
         .logo-abacus {
@@ -935,17 +1172,7 @@ html {
         }
 
         .container-hero {
-            background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ hero\ mobile.jpg);
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            margin: auto;
-            overflow: hidden;
-            padding-bottom: 5%;
-            padding-top: 6%;
-            text-align: left;
-            width: 100%;
+            background-image: url(images/background\ hero\ mobile.jpg);
         }
 
         .slogan {
@@ -1153,13 +1380,11 @@ html {
             margin-bottom: 3%;
             margin-top: 5%;
             margin-right: 5%;
-            text-align: right;
         }
 
         .contact-detail {
             font-size: 1.2rem;
-            margin-right: 5%;
-            text-align: right;
+            margin-right: 12%;
         }
 
         .contact-link {

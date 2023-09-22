@@ -17,16 +17,6 @@ $(document).ready(function() {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        const companyLogo = document.getElementById("companyLogo");
-        companyLogo.style.opacity = "0.3";
-    }, 8500);
-});
-
-
-
-
 $(document).ready(function() {
     var $div = $("#shopLink");
     var $link = $("#shopIcon");

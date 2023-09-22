@@ -156,7 +156,6 @@ html {
 }
 
 .h3-slogan {
-    color: #005173;
     font-weight: bold;
     margin-right: 5%;
 }
@@ -485,14 +484,15 @@ html {
 }
 
 .contact-text {
-    color: white;
     margin-bottom: 2%;
     margin-top: 1%;
 }
 
 .contact-detail {
-    color: white;
     font-weight: bold;
+    background: -webkit-linear-gradient(#00517370, #005173);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-link {
@@ -558,7 +558,6 @@ html {
 }
 
 .text-footer {
-    color: #005073;
     margin-bottom: 0;
 }
 
@@ -1286,7 +1285,7 @@ html {
         }
 
         .contact-link {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         #earth {

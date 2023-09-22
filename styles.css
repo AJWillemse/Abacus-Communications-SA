@@ -903,7 +903,7 @@ html {
     }
 
     .container-hero {
-        background-image: url(images/background\ hero-768.jpg);
+        background-image: url(images/background\ hero\ mobile.jpg);
     }
     
     .span-slogan {
@@ -1099,7 +1099,7 @@ html {
     }
 
     .container-hero {
-        background-image: url(images/background\ hero-575.jpg);
+        background-image: url(images/background\ hero\ mobile.jpg);
     }
 
     .contact-logo-abacus {
@@ -1173,6 +1173,282 @@ html {
 
         .container-hero {
             background-image: url(images/background\ hero\ mobile.jpg);
+        }
+
+        .slogan {
+            margin-left: 2%;
+            padding: 0 0;
+            text-align: left;
+        }
+        
+        #slogan1 {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(0px);
+            box-shadow: 0px 0px 0px black;
+            top: 12%;
+            width: 98%;
+        }
+        
+        #slogan2 {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(0px);
+            box-shadow: 0px 0px 0px black;
+            top: 22%;
+            width: 98%;
+        }
+        
+        #slogan3 {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(0px);
+            box-shadow: 0px 0px 0px black;
+            top: 32%;
+            width: 98%;
+        }
+        
+        #slogan4 {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(0px);
+            box-shadow: 0px 0px 0px black;
+            top: 42%;
+            width: 98%;
+        }
+        
+        .h1-slogan {
+            font-size: 1.4rem;
+            margin-right: 0;
+        }
+        
+        .h3-slogan {
+            color: #005073;
+            font-size: 1.2rem;
+            margin-right: 0;
+        }
+
+        .abacus-logo {
+            margin-left: 5%;
+            margin-top: 115%;
+            width: 90%;
+        }
+
+        .poc-description {
+            padding-top: 10%;
+        }
+        
+        .poc-description-heading {
+            width: 90%;
+        }
+        
+        .poc-description-text {
+            font-size: 1.2rem;
+            width: 90%;
+        }
+
+        .pb-2 {
+            font-size: 2rem;
+            margin-bottom: 0;
+            text-align: right;
+        }
+        
+        .features-heading {
+            font-size: 1.3rem;
+            margin-bottom: 1%;
+            margin-top: 0;
+            text-align: right;
+        }
+
+        .feature-icon {
+            display: none;
+        }
+
+        .features-text {
+            font-size: 1.2rem;
+        }
+    
+        .name-hytera {
+            display: none;
+        }
+        
+        .name-motorola {
+            display: none;
+        }
+        
+        .name-mytetra {
+            display: none;
+        }
+        
+        .brands-model-mobile {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            width: 80%;
+        }
+    
+        .brands-model {
+            display: none;
+        }
+    
+        .brands-model-video {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            margin-top: 0;
+            width: 90%;
+        }
+    
+        .rainbow-text-clients {
+            font-size: 3.5rem;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .logo-clients-1 {
+            width:  40%;
+        }
+        
+        .logo-clients-2 {
+            width:  40%;
+        }
+        
+        .logo-clients-3 {
+            width:  40%;
+        }
+        
+        .logo-clients-4 {
+            width:  40%;
+        }
+        
+        .logo-clients-5 {
+            width:  40%;
+        }
+        
+        .logo-clients-6 {
+            width: 30%;
+        }
+        
+        .logo-clients-7 {
+            width:  40%;
+        }
+        
+        .logo-clients-8 {
+            margin-top: 0;
+            width:  40%;
+        }
+        
+        .logo-clients-9 {
+            width:  40%;
+        }
+        
+        .logo-clients-10 {
+            width:  40%;
+        }
+
+        .carousel-inner {
+            margin-top: 10%;
+            width: 100%;
+        }
+        
+        .d-block {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            width: 80%;
+        }
+
+        .container-contact {
+            background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ contact\ mobile.jpg);
+            padding-right: 0;
+            text-align: center;
+        }
+
+        .rainbow-text {
+            font-size: 3.5rem;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+
+        .contact-logo-abacus {
+            width: 6%;
+        }
+        
+        .contact-span-name {
+            font-size: 1rem;
+        }
+
+        .shop-link {
+            margin-left: 50%;
+        }
+
+        .contact-text {
+            font-size: 0.9rem;
+            margin-bottom: 3%;
+            margin-top: 5%;
+            margin-right: 5%;
+        }
+
+        .contact-detail {
+            font-size: 1.2rem;
+            margin-right: 12%;
+        }
+
+        .contact-link {
+            font-size: 1.1rem;
+        }
+
+        #earth {
+            background-size: 1200px;
+            height: 600px;
+            margin-left: -60%;
+            margin-top: 20%;
+            width: 600px;
+          }
+        
+          @keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 1200px 0px;
+            }
+          }
+        
+          @-webkit-keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 1200px 0px;
+            }
+          }
+
+        .logo-footer {
+            width: 55%;
+        }
+
+        .text-footer {
+            font-size: 0.9rem;
+        }
+        
+        .link-footer {
+            font-size: 1rem;
+        }
+
+    }
+
+    @media (max-width: 425px) {
+
+        .logo-abacus {
+            margin-left: 5%;
+            width: 6%;
+        }
+        
+        .span-name {
+            font-size: 0.9rem;
+            margin-right: 9%;
+        }
+        
+        .span-slogan {
+            display: none;
+        }
+
+        .container-hero {
+            background-image: url(images/background\ hero\ mobile\ 425px.jpg);
         }
 
         .slogan {

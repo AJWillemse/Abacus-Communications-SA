@@ -452,10 +452,12 @@ html {
 }
 
 .contact-span-name {
-    color: yellow;
     font-family: "Neuropol X W00 Expanded Bold";
     font-size: 2.4rem;
     font-weight: bold;
+    background: -webkit-linear-gradient(#3e7e98, #005173);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .shop-link {
@@ -490,9 +492,6 @@ html {
 
 .contact-detail {
     font-weight: bold;
-    background: -webkit-linear-gradient(#00517370, #005173);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .contact-link {

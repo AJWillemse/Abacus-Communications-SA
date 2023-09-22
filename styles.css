@@ -699,6 +699,10 @@ html {
         display: none;
     }
 
+    .container-contact {
+        background-image: url(images/background\ contact\ 768.jpg);
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -838,6 +842,7 @@ html {
     }
     
     .container-contact {
+        background-image: url(images/background\ contact\ 768.jpg);
         text-align: center;
     }
 
@@ -1028,6 +1033,7 @@ html {
     }
     
     .container-contact {
+        background-image: url(images/background\ contact\ 768.jpg);
         text-align: center;
     }
 
@@ -1112,52 +1118,7 @@ html {
         }
 
         .slogan {
-            margin-left: 2%;
-            padding: 0 0;
-            text-align: left;
-        }
-        
-        #slogan1 {
-            background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(0px);
-            box-shadow: 0px 0px 0px black;
-            top: 12%;
-            width: 98%;
-        }
-        
-        #slogan2 {
-            background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(0px);
-            box-shadow: 0px 0px 0px black;
-            top: 22%;
-            width: 98%;
-        }
-        
-        #slogan3 {
-            background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(0px);
-            box-shadow: 0px 0px 0px black;
-            top: 32%;
-            width: 98%;
-        }
-        
-        #slogan4 {
-            background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(0px);
-            box-shadow: 0px 0px 0px black;
-            top: 42%;
-            width: 98%;
-        }
-        
-        .h1-slogan {
-            font-size: 1.4rem;
-            margin-right: 0;
-        }
-        
-        .h3-slogan {
-            color: #005073;
-            font-size: 1.2rem;
-            margin-right: 0;
+            display: none;
         }
 
         .abacus-logo {
@@ -1288,7 +1249,7 @@ html {
         }
 
         .container-contact {
-            background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ contact\ mobile.jpg);
+            background-image: url(images/background\ contact\ 768.jpg);
             padding-right: 0;
             text-align: center;
         }
@@ -1321,6 +1282,7 @@ html {
         .contact-detail {
             font-size: 1.2rem;
             margin-right: 12%;
+            text-align: right;
         }
 
         .contact-link {

@@ -1,3 +1,14 @@
+window.addEventListener('load', function() {
+    const images = document.querySelectorAll('.fade-in');
+  
+    images.forEach(image => {
+      image.classList.add('fade-in-active');
+    });
+  });
+
+
+
+
 $(document).ready(function() {
     function slideInSlogans() {
         var slogans = $(".slogan");

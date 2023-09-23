@@ -57,113 +57,73 @@ html {
     z-index: 20;
 }
 
-.logo-abacus {
-    margin-left: 22%;
-    margin-right: 0.5%;
-    width: 3%;
-}
-
-.span-name {
-    color: yellow;
-    font-family: "Neuropol X W00 Expanded Bold";
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.span-slogan {
-    font-family: "Neuropol X W00 Expanded Bold";
-    font-size: 1.3rem;
-    font-style: italic;
-    font-weight: 400;
+.logo-abacus-navbar {
+    margin: auto;
+    width: 50%;
 }
 
 /* //////////////////// HERO SECTION //////////////////// HERO SECTION //////////////////// */
 
 .container-hero {
-    background-image: url(images/background\ hero.jpg);
+    background-image: url(images/background\ desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
     margin: auto;
     overflow: hidden;
-    padding-bottom: 5%;
-    padding-top: 6%;
     text-align: left;
     width: 100vw;
 }
 
-.slogan {
-    left: -100%;
-    padding: 1% 0;
-    position: absolute;
-    text-align: right;
-    transform: translate(0, -50%);
-    transition: left 4s ease-in-out;
-    white-space: nowrap;
+.logo-abacus-header {
+    margin-left: 35%;
+    margin-top: 6%;
+    width: 60%;
 }
 
-#slogan1 {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 30px black;
-    top: 20%;
-    width: 45%;
+.radios-header {
+    position: relative;
+    filter: drop-shadow(10px -10px 20px rgba(0, 0, 0, 1));
+    width: 52%;
 }
 
-#slogan2 {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
-    border-top-right-radius: 20px; 
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 30px black;
-    top: 38%;
-    width: 45%;
+.hytera-badge {
+    animation: pulse 3s infinite;
+    filter: drop-shadow(10px -10px 20px rgba(0, 0, 0, 1));
+    margin-top: 15%;
+    margin-left: 35%;
+    width: 8%;
 }
 
-#slogan3 {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
-    border-top-right-radius: 20px; 
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 30px black;
-    top: 56%;
-    width: 45%;
-}
-
-#slogan4 {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(3px);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 30px black;
-    top: 74%;
-    width: 45%;
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4)); 
+    }
+    50% {
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+    }
+    100% {
+      transform: scale(1);
+      filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+    }
 }
 
 .fade-in {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 12s;
 }
-
-.h1-slogan {
-    color: yellow;
-    font-weight: bold;
-    margin-right: 5%;
-    text-shadow: 0px 0px 6px #005173;
-}
-
-.h3-slogan {
-    font-weight: bold;
-    margin-right: 5%;
+  
+.fade-in.fade-in-active {
+    opacity: 1;
 }
 
 /* //////////////////// BRANDS SECTION //////////////////// BRANDS SECTION //////////////////// */
 
 .container-abacus {
-    background-color: #efefef9e;
+    background-color: #efefef44;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     margin: auto;
@@ -396,7 +356,7 @@ html {
 /* //////////////////// CONTACT SECTION //////////////////// CONTACT SECTION //////////////////// */
 
 .container-contact {
-    background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ contact.jpg);
+    background-image: linear-gradient(to bottom, transparent 20%, rgba(20, 20, 20, 1) 100%), url(images/background\ desktop.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -405,7 +365,7 @@ html {
     padding-right: 3%;
     padding-top: 3%;
     overflow: hidden;
-    text-align: right;
+    text-align: center;
     width: 100%;
 }
 
@@ -447,22 +407,14 @@ html {
 }
 
 .contact-logo-abacus {
-    margin-right: 0.5%;
-    width: 6%;
-}
-
-.contact-span-name {
-    font-family: "Neuropol X W00 Expanded Bold";
-    font-size: 2.4rem;
-    font-weight: bold;
-    background: -webkit-linear-gradient(#3e7e98, #005173);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    width: 50%;
 }
 
 .shop-link {
     color: #005173;
+    font-size: 1.2rem;
     font-weight: bold;
+    margin-left: 40%;
     text-decoration: none;
 }
 
@@ -486,12 +438,16 @@ html {
 }
 
 .contact-text {
+    color: white;
     margin-bottom: 2%;
     margin-top: 1%;
 }
 
 .contact-detail {
+    color: white;
     font-weight: bold;
+    margin-right: 40%;
+    text-align: right;
 }
 
 .contact-link {
@@ -512,7 +468,7 @@ html {
     background-size: 1000px;
     box-shadow: inset 0px 20px 80px 6px rgba(0, 0, 0, 0.6), inset 20px 0 30px 10px rgba(0, 0, 0, 0.3), 30px 30px 80px black;
     height: 600px;
-    margin-left: 68%;
+    margin: auto;
     margin-top: 2%;
     -webkit-animation-name: rotate;
     -webkit-animation-duration: 50s;
@@ -542,7 +498,7 @@ html {
 /* //////////////////// FOOTER SECTION //////////////////// FOOTER SECTION //////////////////// */
 
 .container-footer {
-    background-color: #efefef9e;
+    background-color: #efefef44;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     margin: auto;
@@ -553,10 +509,11 @@ html {
 }
 
 .logo-footer {
-    width: 20%;
+    width: 30%;
 }
 
 .text-footer {
+    color: white;
     margin-bottom: 0;
 }
 
@@ -571,43 +528,17 @@ html {
 
 
 
+
+
 /* //////////////////// LAPTOP //////////////////// LAPTOP //////////////////// */
 @media (max-width: 1440px) {
 
-.logo-abacus {
-    margin-left: 13%;
+.radios-header {
+    margin-top: 7%;
 }
 
-.container-hero {
-    background-image: url(images/background\ hero-1440.jpg);
-}
-
-#slogan1 {
-    top: 20%;
-    width: 40%;
-}
-
-#slogan2 {
-    top: 38%;
-    width: 40%;
-}
-
-#slogan3 {
-    top: 56%;
-    width: 40%;
-}
-
-#slogan4 {
-    top: 74%;
-    width: 40%;
-}
-
-.h1-slogan {
-    font-size: 1.8rem;
-}
-
-.h3-slogan {
-    font-size: 1.5rem;
+.hytera-badge {
+    margin-top: 20%;
 }
 
 .pb-2 {
@@ -630,12 +561,8 @@ html {
 	font-size: 5rem;
 }
 
-.contact-logo-abacus {
-    width: 5%;
-}
-
-.contact-span-name {
-    font-size: 1.8rem;
+.shop-link {
+    font-size: 1.1rem;
 }
 
 .contact-text {
@@ -651,10 +578,9 @@ html {
 }
 
 #earth {
-    background-size: 800px;
+    background-size: 1000px;
     height: 550px;
-    margin-left: 62%;
-    margin-top: 8%;
+    margin-top: 3%;
     width: 550px;
   }
 
@@ -663,7 +589,7 @@ html {
       background-position: 0px 0px;
     }
     to {
-      background-position: 800px 0px;
+      background-position: 1000px 0px;
     }
   }
 
@@ -672,416 +598,206 @@ html {
       background-position: 0px 0px;
     }
     to {
-      background-position: 800px 0px;
+      background-position: 1000px 0px;
     }
   }
 
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
 
-    .logo-abacus {
-        margin-left: 20%;
-        width: 5%;
+
+
+
+
+
+/* //////////////////// TABLET //////////////////// TABLET //////////////////// */
+@media (max-width: 768px) {
+
+    
+    .logo-abacus-navbar {
+        width: 80%;
     }
 
-    .span-slogan {
-        display: none;
+    .logo-abacus-header {
+        margin: auto;
+        margin-left: 5%;
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .radios-header {
+        margin: auto;
+        margin-left: 0;
+        margin-top: 35%;
+        width: 85%;
+    }
+
+    .hytera-badge {
+        margin-left: 1%;
+        margin-top: 60%;
+        width: 10%;
     }
 
     .container-hero {
-        background-image: url(images/background\ hero-768.jpg);
+        background-image: url(images/background\ mobile.jpg);
     }
 
-    .slogan {
+    .pb-2 {
+        font-size: 3rem;
+        text-align: right;
+    }
+
+    .poc-description {
+        margin-bottom: 10%;
+    }
+
+    .poc-description-text {
+        font-size: 1.2rem;
+    }
+    
+    .features-heading {
+        font-size: 1.8rem;
+    }
+
+    .features-text {
+        font-size: 1.2rem;
+    }
+
+    .name-hytera {
+        display: none;
+    }
+    
+    .name-motorola {
+        display: none;
+    }
+    
+    .name-mytetra {
+        display: none;
+    }
+    
+    .brands-model-mobile {
+        border-radius: 20px;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    .brands-model {
         display: none;
     }
 
+    .brands-model-video {
+        border-radius: 20px;
+        margin-bottom: 10%;
+        margin-top: 0;
+        width: 80%;
+    }
+
+    .rainbow-text-clients {
+        font-size: 3rem;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    .logo-clients-1 {
+        width:  30%;
+    }
+    
+    .logo-clients-2 {
+        width:  30%;
+    }
+    
+    .logo-clients-3 {
+        width:  30%;
+    }
+    
+    .logo-clients-4 {
+        width:  30%;
+    }
+    
+    .logo-clients-5 {
+        width:  30%;
+    }
+    
+    .logo-clients-6 {
+        width: 25%;
+    }
+    
+    .logo-clients-7 {
+        width:  30%;
+    }
+    
+    .logo-clients-8 {
+        width:  30%;
+    }
+    
+    .logo-clients-9 {
+        width:  30%;
+    }
+    
+    .logo-clients-10 {
+        width:  30%;
+    }
+
+    .d-block {
+        border-radius: 20px;
+        margin-bottom: 8%;
+        width: 100%;
+    }
+
+    .shop-link {
+        margin-left: 50%;
+    }
+    
     .container-contact {
         background-image: url(images/background\ contact\ 768.jpg);
+        text-align: center;
     }
 
-}
+    .heading-contact {
+        font-size: 3rem;
+    }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+    .contact-logo-abacus {
+        margin-top: 5%;
+        width: 90%;
+    }
 
+    .contact-text {
+        font-size: 1.2rem;
+        margin-top: 3%;
+    }
     
-    .logo-abacus {
-        margin-left: 15%;
-        width: 6%;
+    .contact-detail {
+        font-size: 2rem;
+        margin-right: 35%;
     }
-
-    .container-hero {
-        background-image: url(images/background\ hero-768.jpg);
-    }
+      
+    #earth {
+        background-size: 1200px;
+        margin-top: 10%;
+      }
     
-    .span-slogan {
-        display: none;
-    }
+      @keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 1200px 0px;
+        }
+      }
+    
+      @-webkit-keyframes rotate {
+        from {
+          background-position: 0px 0px;
+        }
+        to {
+          background-position: 1200px 0px;
+        }
+      }
 
-    .span-name {
-        font-size: 1.4rem;
-        margin-right: 13%;
-    }
-
-    .slogan {
-        display: none;
-    }
-
-    .abacus-logo {
-        margin-left: 25%;
-        margin-top: 65%;
+      .logo-footer {
         width: 50%;
     }
-
-    .pb-2 {
-        font-size: 3rem;
-        text-align: right;
-    }
-
-    .poc-description {
-        margin-bottom: 10%;
-    }
-
-    .poc-description-text {
-        font-size: 1.2rem;
-    }
-    
-    .features-heading {
-        font-size: 1.8rem;
-    }
-
-    .features-text {
-        font-size: 1.2rem;
-    }
-
-    .name-hytera {
-        display: none;
-    }
-    
-    .name-motorola {
-        display: none;
-    }
-    
-    .name-mytetra {
-        display: none;
-    }
-    
-    .brands-model-mobile {
-        border-radius: 20px;
-        margin-bottom: 10%;
-        width: 80%;
-    }
-
-    .brands-model {
-        display: none;
-    }
-
-    .brands-model-video {
-        border-radius: 20px;
-        margin-bottom: 10%;
-        margin-top: 0;
-        width: 80%;
-    }
-
-    .rainbow-text-clients {
-        margin-top: 0;
-        margin-bottom: 10%;
-    }
-
-    .logo-clients-1 {
-        width:  30%;
-    }
-    
-    .logo-clients-2 {
-        width:  30%;
-    }
-    
-    .logo-clients-3 {
-        width:  30%;
-    }
-    
-    .logo-clients-4 {
-        width:  30%;
-    }
-    
-    .logo-clients-5 {
-        width:  30%;
-    }
-    
-    .logo-clients-6 {
-        width: 25%;
-    }
-    
-    .logo-clients-7 {
-        width:  30%;
-    }
-    
-    .logo-clients-8 {
-        width:  30%;
-    }
-    
-    .logo-clients-9 {
-        width:  30%;
-    }
-    
-    .logo-clients-10 {
-        width:  30%;
-    }
-
-    .d-block {
-        border-radius: 20px;
-        margin-bottom: 8%;
-        width: 100%;
-    }
-
-    .shop-link {
-        margin-left: 50%;
-    }
-    
-    .container-contact {
-        background-image: url(images/background\ contact\ 768.jpg);
-        text-align: center;
-    }
-
-    .contact-logo-abacus {
-        margin-right: 0.5%;
-        width: 6%;
-    }
-    
-    .contact-span-name {
-        font-size: 1.8rem;
-    }
-
-    .contact-text {
-        margin-top: 3%;
-    }
-    
-    .contact-detail {
-        font-size: 2rem;
-        margin-right: 38%;
-        text-align: right;
-    }
-      
-    #earth {
-        background-size: 1000px;
-        margin-left: 55%;
-        margin-top: 10%;
-      }
-    
-      @keyframes rotate {
-        from {
-          background-position: 0px 0px;
-        }
-        to {
-          background-position: 1000px 0px;
-        }
-      }
-    
-      @-webkit-keyframes rotate {
-        from {
-          background-position: 0px 0px;
-        }
-        to {
-          background-position: 1000px 0px;
-        }
-      }
-
-      .logo-footer {
-        width: 35%;
-    }
-    
-    }
-
-
-
-
-
-
-
-
-@media (min-width: 586px) and (max-width: 768px) {
-
-    
-    .logo-abacus {
-        margin-left: 18%;
-        width: 6%;
-    }
-
-    .container-hero {
-        background-image: url(images/background\ hero-768.jpg);
-    }
-    
-    .span-slogan {
-        display: none;
-    }
-
-    .span-name {
-        font-size: 1.2rem;
-        margin-right: 18%;
-    }
-
-    .slogan {
-        display: none;
-    }
-
-    .pb-2 {
-        font-size: 3rem;
-        text-align: right;
-    }
-
-    .poc-description {
-        margin-bottom: 10%;
-    }
-
-    .poc-description-text {
-        font-size: 1.2rem;
-    }
-    
-    .features-heading {
-        font-size: 1.8rem;
-    }
-
-    .features-text {
-        font-size: 1.2rem;
-    }
-
-    .name-hytera {
-        display: none;
-    }
-    
-    .name-motorola {
-        display: none;
-    }
-    
-    .name-mytetra {
-        display: none;
-    }
-    
-    .brands-model-mobile {
-        border-radius: 20px;
-        margin-bottom: 10%;
-        width: 80%;
-    }
-
-    .brands-model {
-        display: none;
-    }
-
-    .brands-model-video {
-        border-radius: 20px;
-        margin-bottom: 10%;
-        margin-top: 0;
-        width: 80%;
-    }
-
-    .rainbow-text-clients {
-        margin-top: 0;
-        margin-bottom: 10%;
-    }
-
-    .logo-clients-1 {
-        width:  30%;
-    }
-    
-    .logo-clients-2 {
-        width:  30%;
-    }
-    
-    .logo-clients-3 {
-        width:  30%;
-    }
-    
-    .logo-clients-4 {
-        width:  30%;
-    }
-    
-    .logo-clients-5 {
-        width:  30%;
-    }
-    
-    .logo-clients-6 {
-        width: 25%;
-    }
-    
-    .logo-clients-7 {
-        width:  30%;
-    }
-    
-    .logo-clients-8 {
-        width:  30%;
-    }
-    
-    .logo-clients-9 {
-        width:  30%;
-    }
-    
-    .logo-clients-10 {
-        width:  30%;
-    }
-
-    .d-block {
-        border-radius: 20px;
-        margin-bottom: 8%;
-        width: 100%;
-    }
-
-    .shop-link {
-        margin-left: 50%;
-    }
-    
-    .container-contact {
-        background-image: url(images/background\ contact\ 768.jpg);
-        text-align: center;
-    }
-
-    .contact-logo-abacus {
-        margin-right: 0.5%;
-        width: 6%;
-    }
-    
-    .contact-span-name {
-        font-size: 1.2rem;
-    }
-
-    .contact-text {
-        font-size: 1.2rem;
-        margin-top: 3%;
-    }
-    
-    .contact-detail {
-        font-size: 2rem;
-        margin-right: 5%;
-        text-align: right;
-    }
-      
-    #earth {
-        background-size: 1000px;
-        margin-left: 55%;
-        margin-top: 10%;
-      }
-    
-      @keyframes rotate {
-        from {
-          background-position: 0px 0px;
-        }
-        to {
-          background-position: 1000px 0px;
-        }
-      }
-    
-      @-webkit-keyframes rotate {
-        from {
-          background-position: 0px 0px;
-        }
-        to {
-          background-position: 1000px 0px;
-        }
-      }
-
-      .logo-footer {
-        width: 35%;
-    }
     
     }
 
@@ -1094,35 +810,23 @@ html {
 
 
 
-
-    @media (min-width: 425px) and (max-width: 585px) {
-
-        .logo-abacus {
-            margin-left: 5%;
-            width: 6%;
-        }
-        
-        .span-name {
-            font-size: 0.9rem;
-            margin-right: 9%;
-        }
-        
-        .span-slogan {
-            display: none;
-        }
+/* //////////////////// PHONES //////////////////// PHONES //////////////////// */
+    @media (max-width: 575px) {
 
         .container-hero {
-            background-image: url(images/background\ hero\ mobile\ 425px.jpg);
+            background-image: url(images/background\ mobile.jpg);
         }
 
-        .slogan {
-            display: none;
+        .radios-header {
+            margin-left: -8%;
+            margin-top: 15%;
+            width: 170%;
         }
-
-        .abacus-logo {
-            margin-left: 5%;
-            margin-top: 115%;
-            width: 90%;
+    
+        .hytera-badge {
+            margin-top: -175%;
+            margin-left: 70%;
+            width: 20%;
         }
 
         .poc-description {
@@ -1189,7 +893,7 @@ html {
         }
     
         .rainbow-text-clients {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-top: 10%;
             margin-bottom: 10%;
         }
@@ -1247,51 +951,46 @@ html {
         }
 
         .container-contact {
-            background-image: url(images/background\ contact\ 768.jpg);
+            background-image: url(images/background\ mobile.jpg);
             padding-right: 0;
             text-align: center;
         }
 
         .rainbow-text {
-            font-size: 3.5rem;
-            margin-bottom: 10%;
+            font-size: 3rem;
             margin-top: 10%;
         }
 
         .contact-logo-abacus {
-            width: 6%;
-        }
-        
-        .contact-span-name {
-            font-size: 1rem;
+            width: 90%;
         }
 
         .shop-link {
+            color: white;
             margin-left: 50%;
         }
 
+        .bi-box-arrow-up-right {
+            fill: white;
+        }
+
         .contact-text {
-            font-size: 0.9rem;
-            margin-bottom: 3%;
-            margin-top: 5%;
-            margin-right: 5%;
+            font-size: 1.2rem;
         }
 
         .contact-detail {
-            font-size: 1.2rem;
-            margin-right: 12%;
-            text-align: right;
+            font-size: 1.5rem;
         }
 
         .contact-link {
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
 
         #earth {
             background-size: 1200px;
             height: 600px;
-            margin-left: -60%;
-            margin-top: 20%;
+            margin: auto;
+            margin-top: 10%;
             width: 600px;
           }
         
@@ -1314,7 +1013,7 @@ html {
           }
 
         .logo-footer {
-            width: 55%;
+            width: 50%;
         }
 
         .text-footer {
@@ -1334,38 +1033,24 @@ html {
 
 
 
-    @media (min-width: 300px) and (max-width: 424px) {
-
-        .logo-abacus {
-            margin-left: 6%;
-            width: 6%;
-        }
-        
-        .span-name {
-            font-size: 0.9rem;
-            margin-right: 6%;
-        }
-        
-        .span-slogan {
-            display: none;
-        }
-
-        .slogan {
-            display: none;
-        }
+    @media (max-width: 425px) {
 
         .container-hero {
-            background-image: url(images/background\ hero\ mobile\ 300px.jpg);
+            background-image: url(images/background\ mobile.jpg);
         }
 
-        .slogan {
-            display: none;
+        .logo-abacus-header {
+            margin-top: 30%;
         }
 
-        .abacus-logo {
+        .radios-header {
+            margin-top: 60%;
+        }
+    
+        .hytera-badge {
+            margin-top: -190%;
             margin-left: 5%;
-            margin-top: 115%;
-            width: 90%;
+            width: 20%;
         }
 
         .poc-description {
@@ -1432,7 +1117,7 @@ html {
         }
     
         .rainbow-text-clients {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             margin-top: 10%;
             margin-bottom: 10%;
         }
@@ -1490,23 +1175,18 @@ html {
         }
 
         .container-contact {
-            background-image: url(images/background\ contact\ 768.jpg);
+            background-image: url(images/background\ mobile.jpg);
             padding-right: 0;
             text-align: center;
         }
 
         .rainbow-text {
-            font-size: 3.5rem;
-            margin-bottom: 10%;
+            font-size: 2.5rem;
             margin-top: 10%;
         }
 
         .contact-logo-abacus {
-            width: 6%;
-        }
-        
-        .contact-span-name {
-            font-size: 1rem;
+            width: 90%;
         }
 
         .shop-link {
@@ -1514,28 +1194,25 @@ html {
         }
 
         .contact-text {
-            font-size: 0.9rem;
+            font-size: 1.1rem;
             margin-bottom: 3%;
             margin-top: 5%;
-            margin-right: 5%;
         }
 
         .contact-detail {
             font-size: 1.2rem;
-            margin-right: 12%;
-            text-align: right;
         }
 
         .contact-link {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
 
         #earth {
-            background-size: 1200px;
-            height: 600px;
-            margin-left: -60%;
+            background-size: 650px;
+            height: 300px;
+            margin: auto;
             margin-top: 20%;
-            width: 600px;
+            width: 300px;
           }
         
           @keyframes rotate {
@@ -1543,7 +1220,7 @@ html {
               background-position: 0px 0px;
             }
             to {
-              background-position: 1200px 0px;
+              background-position: 650px 0px;
             }
           }
         
@@ -1552,12 +1229,12 @@ html {
               background-position: 0px 0px;
             }
             to {
-              background-position: 1200px 0px;
+              background-position: 650px 0px;
             }
           }
 
         .logo-footer {
-            width: 55%;
+            width: 90%;
         }
 
         .text-footer {

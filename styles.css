@@ -1095,7 +1095,7 @@ html {
 
 
 
-    @media (min-width: 360px) and (max-width: 585px) {
+    @media (min-width: 425px) and (max-width: 585px) {
 
         .logo-abacus {
             margin-left: 5%;
@@ -1113,6 +1113,249 @@ html {
 
         .container-hero {
             background-image: url(images/background\ hero\ mobile\ 425px.jpg);
+        }
+
+        .slogan {
+            display: none;
+        }
+
+        .abacus-logo {
+            margin-left: 5%;
+            margin-top: 115%;
+            width: 90%;
+        }
+
+        .poc-description {
+            padding-top: 10%;
+        }
+        
+        .poc-description-heading {
+            width: 90%;
+        }
+        
+        .poc-description-text {
+            font-size: 1.2rem;
+            width: 90%;
+        }
+
+        .pb-2 {
+            font-size: 2rem;
+            margin-bottom: 0;
+            text-align: right;
+        }
+        
+        .features-heading {
+            font-size: 1.3rem;
+            margin-bottom: 1%;
+            margin-top: 0;
+            text-align: right;
+        }
+
+        .feature-icon {
+            display: none;
+        }
+
+        .features-text {
+            font-size: 1.2rem;
+        }
+    
+        .name-hytera {
+            display: none;
+        }
+        
+        .name-motorola {
+            display: none;
+        }
+        
+        .name-mytetra {
+            display: none;
+        }
+        
+        .brands-model-mobile {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            width: 80%;
+        }
+    
+        .brands-model {
+            display: none;
+        }
+    
+        .brands-model-video {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            margin-top: 0;
+            width: 90%;
+        }
+    
+        .rainbow-text-clients {
+            font-size: 3.5rem;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .logo-clients-1 {
+            width:  40%;
+        }
+        
+        .logo-clients-2 {
+            width:  40%;
+        }
+        
+        .logo-clients-3 {
+            width:  40%;
+        }
+        
+        .logo-clients-4 {
+            width:  40%;
+        }
+        
+        .logo-clients-5 {
+            width:  40%;
+        }
+        
+        .logo-clients-6 {
+            width: 30%;
+        }
+        
+        .logo-clients-7 {
+            width:  40%;
+        }
+        
+        .logo-clients-8 {
+            margin-top: 0;
+            width:  40%;
+        }
+        
+        .logo-clients-9 {
+            width:  40%;
+        }
+        
+        .logo-clients-10 {
+            width:  40%;
+        }
+
+        .carousel-inner {
+            margin-top: 10%;
+            width: 100%;
+        }
+        
+        .d-block {
+            border-radius: 20px;
+            margin-bottom: 10%;
+            width: 80%;
+        }
+
+        .container-contact {
+            background-image: url(images/background\ contact\ 768.jpg);
+            padding-right: 0;
+            text-align: center;
+        }
+
+        .rainbow-text {
+            font-size: 3.5rem;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+
+        .contact-logo-abacus {
+            width: 6%;
+        }
+        
+        .contact-span-name {
+            font-size: 1rem;
+        }
+
+        .shop-link {
+            margin-left: 50%;
+        }
+
+        .contact-text {
+            font-size: 0.9rem;
+            margin-bottom: 3%;
+            margin-top: 5%;
+            margin-right: 5%;
+        }
+
+        .contact-detail {
+            font-size: 1.2rem;
+            margin-right: 12%;
+            text-align: right;
+        }
+
+        .contact-link {
+            font-size: 1rem;
+        }
+
+        #earth {
+            background-size: 1200px;
+            height: 600px;
+            margin-left: -60%;
+            margin-top: 20%;
+            width: 600px;
+          }
+        
+          @keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 1200px 0px;
+            }
+          }
+        
+          @-webkit-keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 1200px 0px;
+            }
+          }
+
+        .logo-footer {
+            width: 55%;
+        }
+
+        .text-footer {
+            font-size: 0.9rem;
+        }
+        
+        .link-footer {
+            font-size: 1rem;
+        }
+
+    }
+
+
+
+
+
+
+
+
+    @media (min-width: 300px) and (max-width: 424px) {
+
+        .logo-abacus {
+            margin-left: 5%;
+            width: 6%;
+        }
+        
+        .span-name {
+            font-size: 0.9rem;
+            margin-right: 5%;
+        }
+        
+        .span-slogan {
+            display: none;
+        }
+
+        .slogan {
+            display: none;
+        }
+
+        .container-hero {
+            background-image: url(images/background\ hero\ mobile\ 300px.jpg);
         }
 
         .slogan {

@@ -531,6 +531,22 @@ html {
 
 
 /* //////////////////// LAPTOP //////////////////// LAPTOP //////////////////// */
+
+@media (max-width: 16200px) {
+
+    .radios-header {
+        margin-top: 4%;
+    }
+    
+    .hytera-badge {
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
 @media (max-width: 1440px) {
 
 .radios-header {
@@ -1304,7 +1320,7 @@ html {
             margin-top: 20%;
             width: 300px;
           }
-          
+
           @keyframes rotate {
             from {
               background-position: 0px 0px;

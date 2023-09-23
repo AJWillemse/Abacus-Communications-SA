@@ -532,7 +532,7 @@ html {
 
 /* //////////////////// LAPTOP //////////////////// LAPTOP //////////////////// */
 
-@media (max-width: 16200px) {
+@media (max-width: 1620px) {
 
     .radios-header {
         margin-top: 4%;
@@ -550,7 +550,7 @@ html {
 @media (max-width: 1440px) {
 
 .radios-header {
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .hytera-badge {
@@ -631,27 +631,27 @@ html {
 
     
     .logo-abacus-navbar {
-        width: 80%;
+        width: 100%;
     }
 
     .logo-abacus-header {
         background-color: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(6px);
         margin: auto;
-        margin-top: 15%;
+        margin-top: 25%;
         width: 100%;
     }
 
     .radios-header {
         margin: auto;
-        margin-left: 0;
-        margin-top: 25%;
-        width: 85%;
+        margin-left: -5%;
+        margin-top: 35%;
+        width: 120%;
     }
 
     .hytera-badge {
-        margin-left: -8%;
-        margin-top: 5%;
+        margin-top: -125%;
+        margin-left: 80%;
         width: 15%;
     }
 

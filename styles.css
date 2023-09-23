@@ -813,6 +813,10 @@ html {
 /* //////////////////// PHONES //////////////////// PHONES //////////////////// */
     @media (max-width: 575px) {
 
+        .logo-abacus-navbar {
+            width: 100%;
+        }
+
         .container-hero {
             background-image: url(images/background\ mobile.jpg);
         }
@@ -1035,6 +1039,10 @@ html {
 
     @media (max-width: 425px) {
 
+        .logo-abacus-navbar {
+            width: 100%;
+        }
+
         .container-hero {
             background-image: url(images/background\ mobile.jpg);
         }
@@ -1044,7 +1052,7 @@ html {
         }
 
         .radios-header {
-            margin-top: 60%;
+            margin-top: 62%;
         }
     
         .hytera-badge {

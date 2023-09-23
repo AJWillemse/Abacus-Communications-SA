@@ -1267,3 +1267,32 @@ html {
         }
 
     }
+
+    @media (max-width: 425px) {
+
+        .radios-header {
+            margin-top: 70%;
+        }
+    
+        .hytera-badge {
+            margin-top: -190%;
+            margin-left: 5%;
+            width: 20%;
+        }
+
+        .rainbow-text-clients {
+            font-size: 2.2rem;
+        }
+
+        .rainbow-text {
+            font-size: 2.2rem;
+        }
+
+        .contact-text {
+            font-size: 1rem;
+        }
+
+        .contact-link {
+            font-size: 1rem;
+        }
+    }

@@ -1337,13 +1337,13 @@ html {
     @media (min-width: 300px) and (max-width: 424px) {
 
         .logo-abacus {
-            margin-left: 5%;
+            margin-left: 6%;
             width: 6%;
         }
         
         .span-name {
             font-size: 0.9rem;
-            margin-right: 5%;
+            margin-right: 6%;
         }
         
         .span-slogan {

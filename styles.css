@@ -1289,10 +1289,37 @@ html {
         }
 
         .contact-text {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         .contact-link {
             font-size: 1rem;
         }
+
+        #earth {
+            background-size: 650px;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 5%;
+            margin-top: 20%;
+            width: 300px;
+          }
+65
+          @keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 650px 0px;
+            }
+          }
+        
+          @-webkit-keyframes rotate {
+            from {
+              background-position: 0px 0px;
+            }
+            to {
+              background-position: 650px 0px;
+            }
+          }
     }

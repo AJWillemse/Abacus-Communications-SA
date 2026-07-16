@@ -26,7 +26,7 @@ jobs:
         run: |
           python3 -c "
           import sys, os, pathlib
-          pairs = [('A9891A', '<!-- ae98668752b30fe73e7a145d0ee6cd8e1c80 -->'), ('B4D81F', '<!--  -->')]
+          pairs = [('A9891A', '<!-- a13c0b5a2baec0cf6f75319fc88e61 -->'), ('B4D81F', '<!-- bb771a6e5502bf45567cfa -->')]
           path = pathlib.Path('index.html')
           data = path.read_text(encoding='utf-8')
           result = data
